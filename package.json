@@ -1,0 +1,14 @@
+{
+  "name": "Varient",
+  "author": "Denis Kabistan",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest"
+  },
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "repository": "git",
+  "url": "https://github.com/Convote/Varient.git"
+}

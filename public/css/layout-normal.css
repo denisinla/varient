@@ -1,0 +1,21 @@
+#thumb-container{
+  width: 2488px;
+}
+.thumb{
+  width: 324px;
+  height: 243px;
+}
+.thumb:nth-child(1){
+  width: 220px;
+  height: 243px;
+}
+.thumb:nth-child(1) img{
+  height: 243px;
+}
+.thumb .text{
+  margin-top: 7.6%;
+}
+.video-overlay .close{
+  top: -37px;
+  right: 13px;
+}
