@@ -2,13 +2,22 @@
   "name": "Varient",
   "author": "Denis Kabistan",
   "version": "1.0.0",
+  "description":"Varient website",
+  "main":"server/web.js",
+  "scripts":{
+    "start": "node server/web.js"
+  },
   "dependencies": {
-    "express": "latest"
+    "express": "^4.0.0"
   },
   "engines": {
-    "node": "latest",
-    "npm": "latest"
+    "node": "0.10.x"
   },
+  "keywords":[
+    "node",
+    "heroku",
+    "express"
+  ],
   "repository": "git",
-  "url": "https://github.com/Convote/Varient.git"
+  "url": "https://bitbucket.org/dkabistan/varient"
 }

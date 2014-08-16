@@ -1,16 +1,9 @@
-var express = require("express"),
-    http = require("http"),
-    port = (process.env.PORT || 3000),
-    server = module.exports = express();
+var express = require('express')
+var app = express();
 
-server.configure(function () {
-    server.use(express["static"](__dirname + "/../public"));
-    server.use(express.errorHandler({
-        dumpExceptions:true,
-        showStack:true
-    }));
-    server.use(server.router);
-});
-// Start Node.js Server
-http.createServer(server).listen(port);
-console.log('Server Running');
+app.set('port',(process.env.PORT || 5000))
+app.use(express.static(__dirname + '/app'))
+
+app.listen(app.get('port'),function(){
+  console.log('Express running on localhost:' + app.get('port'))
+})
