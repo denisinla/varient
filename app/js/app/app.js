@@ -18,6 +18,7 @@ define(["jquery","mousewheel"],function($){
   });
   function init(){
     $('body').css({'visibility':'visible'});
+  }
   /*
     --------------------------------
     Bottom Navigation Content
