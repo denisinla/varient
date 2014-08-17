@@ -20,6 +20,6 @@
 - Go to ``localhost:5000`` in your browser and voilà Varient is up and running.
 
 
-### Heroku
+### Deployed to Heroku
 
 [Varient on Heroku](http://varient.herokuapp.com)
