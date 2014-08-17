@@ -6,7 +6,7 @@
   "main":"server/web.js",
   "scripts":{
     "start": "node server/web.js",
-    "test": "make test"
+    "test":"grunt build"
   },
   "dependencies": {
     "express": "^4.0.0",
