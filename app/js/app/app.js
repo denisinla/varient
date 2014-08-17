@@ -18,16 +18,6 @@ define(["jquery","mousewheel"],function($){
   });
   function init(){
     $('body').css({'visibility':'visible'});
-
-    /*
-    --------------------------------
-    Mapbox integration
-    --------------------------------
-  */
-    L.mapbox.accessToken = 'pk.eyJ1IjoiZGVuaXNpbmxhIiwiYSI6Ik1OS0N1OFEifQ.JK5PyU8RAGKZAeR6gLcJLQ';
-    var map = L.mapbox.map('map', 'denisinla.j8b6j08c')
-    .setView([34.032008, -118.376466], 16);
-  }
   /*
     --------------------------------
     Bottom Navigation Content
