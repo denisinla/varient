@@ -1,13 +1,25 @@
-### Varient Front-End
-_Run the whole current front-end in a local environment using an express server_
+## Varient Frontend
+---
+
+### Tools
+- NPM, Node/Express
+- GruntJS
+- RequireJS
+- HTML5/SCSS
+- Heroku
 
 ### Install Dependencies
 
 - Install [homebrew](http://brew.sh/)
 - Install Node: ``$ brew install node``
-- Install dependencies: ``$ npm install`` (this will install all node modules required to run the front-end)
+- Change into directory and run ``$ npm install`` (this will install all node modules required to run the front-end)
 
-### Booting the server
+### Booting server with Grunt
 
-- Run server: ``$ node server/web.js``
-- Go to ``localhost:3000`` in your browser and voilà Varient is up and running within node with express.
+- Run server: ``$ grunt build``
+- Go to ``localhost:5000`` in your browser and voilà Varient is up and running.
+
+
+### Heroku
+
+[Varient on Heroku](http://varient.herokuapp.com)
