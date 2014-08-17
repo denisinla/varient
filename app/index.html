@@ -3,16 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Varient</title>
-<meta name="description" content="Varient is a commercial & film production company based in the heart of the Culver City arts district.">
+<meta name="description" content="Varient is a commercial &amp; film production company based in the heart of the Culver City arts district.">
 <meta name="author" content="varient">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600,700,800|Quicksand:300,400,700|Asap:400,700,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" type="text/css" href="css/mobile-portrait.css" media="only screen and (min-width:320px) and (max-width: 480px)" />
-<link rel="stylesheet" type="text/css" href="css/layout-mobile.css" media="only screen and (max-width:719px)" />
-<link rel="stylesheet" type="text/css" href="css/layout-tablet.css" media="only screen and (min-width:640px) and (max-width: 768px)" />
 <link rel="stylesheet" type="text/css" href="css/layout-normal.css" media="only screen and (min-width:960px)" />
-<link href="css/animated.min.css" rel="stylesheet">
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="icon" href="images/favicon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -25,58 +23,58 @@
   <div class="video-pod">
   </div>
 </div>
- <div id="thumb-container">	 
+ <div id="thumb-container">
  	<div class="thumb" id="acidgirls">
 		<div class="text">ACID GIRLS</div>
  		<img src="thumbnails/acidgirlstwo.jpg" />
- 	</div> 
+ 	</div>
  	<div class="thumb" id="tgitb">
 		<div class="text">THE GIRL IN THE BOOK</div>
  		<img src="thumbnails/thegirlinthebook.jpg" />
- 	</div> 
+ 	</div>
  	<div class="thumb" id="bb">
-		<div class="text">BLACKBIRD BLACKBIRD</div> 	 	
+		<div class="text">BLACKBIRD BLACKBIRD</div>
  		<img src="thumbnails/blackbirdblackbird.jpg" />
- 	</div> 
+ 	</div>
  	<div class="thumb" id="atdd">
 		<div class="text">AT THE DEVIL'S DOOR</div>
  		<img src="thumbnails/atthedevilsdoor.jpg" />
- 	</div> 
+ 	</div>
  	<div class="thumb" id="lotn">
 		<div class="text">LOVERS ON THE RUN</div>
  		<img src="thumbnails/loversontherun.jpg" />
  	</div>
   <!-- More Added -->
   <div class="thumb" id="bb">
-    <div class="text">BLACKBIRD BLACKBIRD</div>     
+    <div class="text">BLACKBIRD BLACKBIRD</div>
     <img src="thumbnails/blackbirdblackbird.jpg" />
-  </div> 
+  </div>
   <div class="thumb" id="atdd">
     <div class="text">AT THE DEVIL'S DOOR</div>
     <img src="thumbnails/atthedevilsdoor.jpg" />
-  </div> 
+  </div>
   <div class="thumb" id="lotr">
     <div class="text">LOVERS ON THE RUN</div>
     <img src="thumbnails/loversontherun.jpg" />
   </div>
-  <!-- Bottom -->	
-  <div style="float: left;">		
+  <!-- Bottom -->
+  <div style="float: left;">
     <div class="thumb" id="gawds">
   	 <div class="text">GAWDS</div>
    		<img src="thumbnails/gawds.jpg" />
-   	</div> 
+   	</div>
    	<div class="thumb" id="moby">
   		<div class="text">MOBY</div>
    		<img src="thumbnails/moby.jpg" />
-   	</div> 
+   	</div>
    	<div class="thumb" id="medeas">
   		<div class="text">MEDEAS</div>
    		<img src="thumbnails/medeas.gif"  />
-   	</div> 
+   	</div>
    	<div class="thumb" id="acidgirls">
   		<div class="text">ACID GIRLS</div>
    		<img src="thumbnails/acidgirls.jpg" />
-   	</div> 
+   	</div>
    	<div class="thumb" id="google-glass">
   		<div class="text">GOOGLE GLASS</div>
    		<img src="thumbnails/googleglass.jpg" />
@@ -84,36 +82,30 @@
     <div class="thumb" id="gawds">
      <div class="text">GAWDS</div>
       <img src="thumbnails/gawds.jpg" />
-    </div> 
+    </div>
     <div class="thumb" id="moby">
       <div class="text">MOBY</div>
       <img src="thumbnails/moby.jpg" />
-    </div> 
+    </div>
     <div class="thumb" id="medeas">
       <div class="text">MEDEAS</div>
       <img src="thumbnails/medeas.gif"  />
-    </div> 
+    </div>
   </div>
   <!-- More -->
 </div>
    <div id="footer-container">
    		<div class="logo">∆</div>
    		<div class="nav">
-   			<div class="btn1">DIRECTORS</div>
-   			<div class="btn2">FEATURES</div>
-   			<div class="btn3">CONTACT</div>
-   		</div>   		
+   			<div class="btn1" data-pop-up="directors">DIRECTORS</div>
+   			<div class="btn2" data-pop-up="features">FEATURES</div>
+   			<div class="btn3" data-pop-up="contact">CONTACT</div>
+   		</div>
       <!-- Directors Content -->
       <div class="directors">
-        <div class="closeIt">&#215;</div>
+        <div class="closeIt" data-close="directors">&#215;</div>
         <div class="col">
-          <ul>
-            <li><a href="#">Alfred Hitchcock</a></li>
-            <li><a href="#">Stanley Kubrick</a></li>
-            <li><a href="#">Martin Scorsese</a></li>
-            <li><a href="#">Stephen Spielberg</a></li>
-            <li><a href="#">Roman Polanski</a></li>
-          </ul>
+          <i class="fa fa-bullhorn fa-5x"></i>
         </div>
         <div class="col">
           <ul>
@@ -127,71 +119,40 @@
       </div>
       <!-- Features Content -->
       <div class="features">
-        <div class="closeIt">&#215;</div>
+        <div class="closeIt" data-close="features">&#215;</div>
         <div class="col">
-          <ul>
-            <li><a href="#">Alfred Hitchcock</a></li>
-            <li><a href="#">Stanley Kubrick</a></li>
-            <li><a href="#">Martin Scorsese</a></li>
-            <li><a href="#">Stephen Spielberg</a></li>
-            <li><a href="#">Roman Polanski</a></li>
-          </ul>
+          <i class="fa fa-film fa-5x"></i>
         </div>
         <div class="col">
           <ul>
-            <li><a href="#">Alfred Hitchcock</a></li>
-            <li><a href="#">Stanley Kubrick</a></li>
-            <li><a href="#">Martin Scorsese</a></li>
-            <li><a href="#">Stephen Spielberg</a></li>
-            <li><a href="#">Roman Polanski</a></li>
+            <li><a href="#">The Girl in the book</a></li>
+            <li><a href="#">Blackbird</a></li>
+            <li><a href="#">At The devil's door</a></li>
+            <li><a href="#">Moby</a></li>
+            <li><a href="#">Medeas</a></li>
           </ul>
         </div>
       </div>
       <!-- Directors Content -->
       <div class="contact">
-        <div class="closeIt">&#215;</div>
+        <div class="closeIt" data-close="contact">&#215;</div>
         <div class="col">
-          <ul>
-            <li><a href="#">Alfred Hitchcock</a></li>
-            <li><a href="#">Stanley Kubrick</a></li>
-            <li><a href="#">Martin Scorsese</a></li>
-            <li><a href="#">Stephen Spielberg</a></li>
-            <li><a href="#">Roman Polanski</a></li>
-          </ul>
+          <i class="fa fa-phone fa-5x"></i>
+          <div id="map"></div>
         </div>
         <div class="col">
           <ul>
-            <li><a href="#">Alfred Hitchcock</a></li>
-            <li><a href="#">Stanley Kubrick</a></li>
-            <li><a href="#">Martin Scorsese</a></li>
-            <li><a href="#">Stephen Spielberg</a></li>
-            <li><a href="#">Roman Polanski</a></li>
+            <li>6007 Washington Blvd.</li>
+            <li>Culver City, CA 90232</li>
+            <li>P: 310-839-1000</li>
           </ul>
         </div>
       </div>
       <!-- Right Menu -->
-   		<div class="menu" id="open">=</div>
+   		<div class="menu" data-pop-up="menu-expand">=</div>
        <!-- Right Menu -->
    <div class="menu-expand">
-      <div class="closeIt">&#215;</div>
-        <div class="col">
-          <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+      <div class="closeIt" data-close="menu-expand">&#215;</div>
         <div class="col">
           <ul>
             <li><a href="#">Portfolio</a></li>
@@ -203,6 +164,6 @@
         </div>
       </div>
       <!-- End Right Menu -->
-   
+
 </body>
 </html>

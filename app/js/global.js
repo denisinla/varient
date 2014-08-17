@@ -3,7 +3,8 @@ requirejs.config({
 	paths: {
 		"jquery": 'jquery.min',
     "mousewheel": 'jquery.mousewheel.min',
-    "vimeo": 'vimeo-api'
+    "vimeo": 'vimeo-api',
+    "mapbox":'mapbox-2.0.1'
 	},
   shim: {
     "mousewheel":{
@@ -14,4 +15,4 @@ requirejs.config({
     }
   }
 });
-require(['/js/app/app.js']);
+require(['mapbox','/js/app/app.js']);
